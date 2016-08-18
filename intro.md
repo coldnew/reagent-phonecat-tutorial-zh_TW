@@ -15,6 +15,20 @@
 
 單頁面應用程式(SPA)提供無縫且非常流暢的使用者體驗，但也帶來了許多挑戰，因為這種模式需要很複雜的狀態管理，這也是ClojureScript和React的語法可勝任的部份。
 
+## 預先準備
+
+這份教學假設你:
+
+- 稍微理解 Clojure(Script) 的語法，如果不會的話，這份 [ClojureScript和Javascript對照表](https://himera.herokuapp.com/synonym.html) 也許對你有些幫助，或是這個 [cheatsheet](http://cljs.info/cheatsheet/)。
+
+- 理解基本的瀏覽器運作流程(HTML、CSS、Javascript、AJAX、非同步...等)。
+
+- 看過 [Reagent 首頁](https://reagent-project.github.io/) 可能對你有些幫助。
+
+- 具有Reactjs相關的知識也許會有幫助，但那不是必備的。(作者在用Reagent寫app之前完全不會Reactjs)。
+
+
+在做這份教學時，你 *不需要* 做過原本的 [Angular 教學](https://docs.angularjs.org/tutorial/step_00) 。
 
 ## 讓我們開始吧
 
