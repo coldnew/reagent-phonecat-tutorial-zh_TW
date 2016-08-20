@@ -2,11 +2,11 @@
 
 **[Browse code](https://github.com/vvvvalvalval/reagent-phonecat-tutorial/blob/step-1/src/cljs/reagent_phonecat_tutorial/core.cljs#L1) - [Diff](https://github.com/vvvvalvalval/reagent-phonecat-tutorial/compare/step-0...step-1#diff-0bf18c482292a447479e4cfbf8a64631)- [Live demo](http://reagent-phonecat-tutorial.s3-website-us-east-1.amazonaws.com/step-01/)**
 
-在測試這一份教學的步驟，你需要執行 *git checkout step-1*, 然後重新整理瀏覽器。
+在測試這一份教學的步驟，你需要執行 `git checkout step-1`, 然後重新整理瀏覽器。
 
 ***
 
-為了可以熟悉 Reagent 語法來建立不同的顯示畫面，讓我們將一些靜態內容加入到我們的網頁。 *reagent-phonecat.core* 這個命名空間的內容將變成:
+為了可以熟悉 Reagent 語法來建立不同的顯示畫面，讓我們將一些靜態內容加入到我們的網頁。 `reagent-phonecat.core` 這個命名空間的內容將變成:
 
 ```clojure
 (def static-content "Some sample, statically defined DOM content."
@@ -35,7 +35,7 @@
 
 - HTML 元素將以陣列 (vector) 的形式來表示，並且第一個元素是 關鍵字 (keyword)
 - HTML 屬性則是在陣列 (vector) 的第二個元素，以 map 來表示
-- 在關鍵字 (keyword) 內的 *id* 和 *class* 屬性也有縮寫可以用
+- 在關鍵字 (keyword) 內的 `id` 和 `class` 屬性也有縮寫可以用
 
 
 ## 總結
